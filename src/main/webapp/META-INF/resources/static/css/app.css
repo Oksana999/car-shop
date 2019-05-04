@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+.container-top {
+    margin-top: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.centerchild {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.text {
+    letter-spacing: 1px;
+}
+
+/* Reset */
+.myButton {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    text-decoration: white;
+}
+
+/* Custom */
+.myButton {
+    display: inline-block;
+    position: relative;
+    padding: 16px 38px;
+    top: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    border-bottom: 1px solid #054dbf;
+    background: #4808d3;
+    text-decoration-color: white;
+    color: linen  ;
+
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+.myButton:hover {
+    top: -10px;
+    box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+
+    -webkit-transform: rotateX(20deg);
+    -moz-transform: rotateX(20deg);
+    -ms-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+}
+
+.myButton:active {
+    top: 0px;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+    background: #FD6B68;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+#banner {
+    /*padding: 3em 0 5em 0;*/
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+#banner::before {
+    content: '';
+    background: rgba(48, 0, 189, 0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#banner .inner {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+#banner h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    color: #92CBFC;
+    line-height: 1em;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.main-img {
+    background: url("https://www.google.com/search?q=%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B5+%D0%B0%D0%B2%D1%82%D0%BE+%D0%BD%D0%B0+%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%BC+%D1%84%D0%BE%D0%BD%D0%B5+%D1%84%D0%BE%D1%82%D0%BE&tbm=isch&source=iu&ictx=1&fir=8H3tXYDdCQuV9M%253A%252Cs66KKrPFchv5WM%252C_&vet=1&usg=AI4_-kQrbxnzJ7Mtw9E0NWKu1-egzHrB0Q&sa=X&ved=2ahUKEwi5sqfBturhAhULS60KHdkRDZUQ9QEwAnoECAkQCA#imgrc=P_WZmYBGEVA2eM:&vet=1");
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#header .left {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1 1 100%;
+}
+
+#header .right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 100%;
+}
+
+#header .right a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 10px;
+}

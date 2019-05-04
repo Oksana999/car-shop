@@ -1,0 +1,82 @@
+.myForm{
+    /*font: 95% Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 1em;*/
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.myForm h1{
+    background: #6D84F8;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.myForm input[type="text"],
+.myForm input[type="date"],
+.myForm input[type="datetime"],
+.myForm input[type="email"],
+.myForm input[type="number"],
+.myForm input[type="search"],
+.myForm input[type="time"],
+.myForm input[type="url"],
+.myForm textarea,
+.myForm select
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    /*font: 95% Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-size: 95%;*/
+}
+.myForm input[type="text"]:focus,
+.myForm input[type="date"]:focus,
+.myForm input[type="datetime"]:focus,
+.myForm input[type="email"]:focus,
+.myForm input[type="number"]:focus,
+.myForm input[type="search"]:focus,
+.myForm input[type="time"]:focus,
+.myForm input[type="url"]:focus,
+.myForm textarea:focus,
+.myForm select:focus
+{
+    box-shadow: 0 0 5px #6D84F8;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.myForm input[type="submit"],
+.myForm input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #6D84F8;
+    border-bottom: 2px solid #4668F6;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+.myForm input[type="submit"]:hover,
+.myForm input[type="button"]:hover{
+    background: #6D84F8;
+}
